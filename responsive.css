@@ -1,0 +1,300 @@
+@media (min-width:320px) and (max-width:575px) {
+   
+    nav img{
+       width: 80px;
+       height: 50px;
+
+    }
+
+    .btn {
+
+    padding: 6px;
+    border-radius: 5px;
+    font-size: 10px;
+}
+
+     .banner {
+    width: 100%;
+    padding-top: 200px;
+    margin: 0 auto;
+    padding-bottom: 200px;
+}
+.banner h1 {
+    width: 100%;
+    /* max-width: 771px; */
+    font-size: 30px;
+
+}
+
+.banner p {
+    width: 100%;
+    /* max-width: 547px; */
+    font-size: 14px;
+}
+.navbar-toggler-icon {
+
+    width: 1em;
+    height: 1em;
+}
+
+
+.nav-link {
+    text-align: center;
+}
+
+.card-container {
+    gap: 20px;
+    position: static;
+ 
+}
+
+.row {
+    --bs-gutter-x: 0rem;
+   
+
+
+}
+/* ================experience part starts=============== */
+.ring{
+    display: none;
+}
+
+.snake{
+    display: none;
+}
+.experience-wrapper .exp-img {
+    width: 100%;
+    position: static;
+}
+
+#experience .container h6 {
+    text-transform: capitalize;
+    color: #FF5538;
+    padding-top: 60px;
+    padding-bottom: 10px;
+}
+
+.heading-responsive{
+    font-size: 15px;
+    padding-bottom: 20px;
+}
+
+.experience-wrapper {
+    flex-direction: column;
+}
+
+.right-part {
+    height: 626px;
+    background-color: rgba(251, 243, 240, .8);
+    width: 100%;
+    position: absolute;
+    top: 480px;
+    right: 0px;
+    padding: 80px 80px 80px 80px;
+}
+
+.right-part h2 {
+    max-width: 100%;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 140%;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.right-part p {
+    max-width: 100%;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 200%;
+    margin-bottom: 48px;
+    text-align: center;
+}
+.btn-responsive{
+    text-align: center;
+}
+
+/* =================experience ends====================  */
+
+/* ==================counting starts here ================*/
+
+.saper-image{
+    display: none;
+}
+
+.margin-top {
+    margin-top: 470px;
+}
+
+.counting-nav-container h2 {
+    width: 100%;
+    font-size: 18px;
+}
+.counting-nav-container {
+flex-direction: column;
+align-items: flex-start;
+}
+
+.responsive-margin-bottom{
+     margin-bottom: 20px;
+}
+
+.padding-bottom-2 {
+    padding-bottom: 0px;
+}
+
+.row-assistant{
+    flex-direction: column;
+    width: 100%;
+}
+
+.item-1 {
+    height: auto;
+}
+.item-2 {
+ height: auto;
+}
+
+/*============ counting-2 part starts ================*/
+.snake-4{
+    display: none;
+}
+.flex-3 {
+    display: flex;
+   flex-direction: column;
+}
+#counting-2 {
+    height: auto;
+    width: 100%;
+}
+.counting-right-part h2 {
+    width: 100%;
+   font-size: 25px;
+   
+}
+
+.counting-right-part p {
+    width: 100%;
+  
+    font-size: 15px;
+   
+}
+
+.item-3 {
+    width: 100%;
+    background-color: white;
+    text-align: center;
+    align-items:center;
+}
+
+.counting-right-part {
+  width: 100%;
+}
+
+.counting-left-part {
+    margin-right: 0px;
+}
+
+.margin-bottom {
+    margin-bottom: 0px;
+}
+.col-gap {
+    gap: 0px;
+}
+
+.counting-right-part h2 {
+    margin-top: 70px;
+}
+/*================= company starts =====================*/
+.companies-image {
+    flex-direction: column;
+
+}
+
+#companies h2 {
+    max-width: 100%;
+    font-size: 30px;
+}
+#companies {
+    padding: 0px;
+}
+.img2{
+  width: 50%;
+}
+.carousel-control-next-icon {
+    bottom: -80px;
+    left: -20px;
+}
+#customer {
+    height: auto;
+}
+.flex6 {
+flex-direction: column;
+}
+
+.imgcontainer2 {
+    margin-bottom: 60px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* gap: 28px; */
+}
+
+
+.customer-left .width-2-responsive{
+  width: 100%;
+}
+
+.heading-responsive-7{
+    margin: 0 auto;
+    font-size: 25px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+
+.jonathan-2{
+    padding: 30px;
+}
+
+.carousel-control-prev-icon {
+   bottom: -80px;
+}
+
+/*=================== talks apart start================= */
+.talks-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.btn-transparent { 
+    background-color:#FF5538; 
+   
+    color: #5a4f4d;
+    font-weight: 500;
+    font-size: 10px;
+    line-height: 100%;
+}
+
+/* footer starts  */
+
+.footer-policy-1 {
+    bottom: -50px;
+    right: 113px;
+}
+.footer-policy-2 {
+    bottom: -30px;
+    right: 95px;
+}
+
+.decoration{
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.margin-bottom-6 {
+    text-align: center;
+    margin-bottom: 0px;
+}
+
+}

@@ -1,0 +1,512 @@
+:root{
+    --primary:#ffffff;
+    --secondary:#FF5538;
+    --black:#29313D;
+}
+
+#header{
+    min-height: 1400px;
+    background-image: url("./images/Group\ 1000007202.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* margin-bottom: 280px; */
+    position: relative;
+}
+
+.card-container{
+    display: flex;
+    gap: 20px;
+    position: absolute;
+    bottom: 5%;
+    left:25%;
+    
+}
+
+
+.container{
+    max-width: 1408px;
+    margin: 0 auto;
+}
+.bg-light{
+    background-color: transparent !important;
+}
+
+.btn{
+    background-color: #FF5538;
+    color: #ffffff;
+    padding: 14px 28px 14px 28px;
+    border-radius: 18px;
+    border: none;
+font-weight: 500px;
+font-size: 18px;
+line-height: 200%;
+
+}
+
+.banner{
+    width: 771px;
+    padding-top: 200px;
+    margin: 0 auto;
+    padding-bottom: 200px;
+
+}
+.banner h1{
+    width: 100%;
+    /* max-width: 771px; */
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 130%;
+    text-align: center;
+    margin-bottom: 24px;
+
+}
+.banner p{
+    width: 100%;
+    /* max-width: 547px; */
+    font-size: 18px;
+    font-weight: 400px;
+    line-height: 200%;
+    text-align: center;
+    margin-bottom: 44px;
+
+}
+.btn-containers{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    gap:24px;
+}
+
+/*======= banner ends========= */
+/*======= cards start========= */
+
+.card{
+    max-width: 300px;
+    min-height: 327px;
+    border-radius: 0px;
+    padding: 30px 46px 30px 30px;
+    border:none;
+    box-shadow:0px 44px 40px 0px rgba(0, 0, 0, .2); 
+}
+svg{
+    padding-bottom: 34px;
+}
+.card h2{
+    padding-bottom: 16px;
+}
+/* ========================cards end=============================== */
+/* ===================experience starts=================== */
+#experience{
+    height: 805px;
+    position: relative;
+}
+.experience-wrapper .exp-img{
+    height: 521px;
+    width: 53%;
+    position: absolute;
+    top: 25%;
+    z-index: 999;
+
+}
+
+.experience-wrapper{
+    display: flex;
+    height: 626px;
+    position: relative;
+   
+
+}
+
+.ring{
+    position: absolute;
+    top: 90px;
+    left: 370px;
+}
+
+
+#experience .container h1{
+    max-width: 450px;
+    font-size: 48px;
+    font-weight: 600px;
+    line-height: 140%;
+    margin-bottom: -100px;
+}
+#experience .container h6{
+    text-transform: capitalize;
+    color: #FF5538;
+    padding-bottom: 20px;
+}
+
+
+
+
+.right-part{
+    height: 626px;
+     background-color: rgba(251, 243, 240, .8);
+    width: 50%;
+    position: absolute;
+    top: 100px;
+    right: 0px;
+    padding: 80px 80px 80px 80px;
+
+    
+}
+
+.snake{
+     position: absolute;
+     right: 0px;
+     bottom: -236px;
+}
+
+
+.right-part h2{
+    max-width: 520px; 
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 140%;
+    margin-bottom: 20px;
+
+
+}
+.right-part p{
+    max-width: 501px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 200%;
+    margin-bottom: 48px;
+}
+/* ================counting start================= */
+#counting{
+    /* margin-top: 120px; */
+    position: relative;
+    padding-bottom: 120px;
+}
+
+.margin-top{
+    margin-top: 220px;
+}
+.saper-image{
+    position: absolute;
+    top: -351px;
+    left: 0px;
+}
+.cross-image{
+    position: absolute;
+    bottom: 0px;
+    right: 100px;
+}
+
+
+.counting-nav-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.item-1{
+    height: 458px;
+    max-width: 100%;
+}
+
+.item-2{
+    height: 458px;
+    max-width: 100%;
+}
+
+.text-wrapper-1{
+    padding: 30px 30px;
+    /* width: 575px; */
+    max-width: 100%;
+}
+
+.text-wrapper-1 h4{
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 140%;
+    text-transform: capitalize;
+}
+.text-wrapper-1 p{
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 100%;
+    color: #FF5538;
+    text-transform: capitalize;
+}
+.text-wrapper-2{
+padding: 30px 30px 30px 30px;
+/* width: 810px; */
+max-width: 100%;
+}
+
+.text-wrapper-2 p{
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 100%;
+    color: #FF5538;
+    text-transform: capitalize;
+}
+
+.margin-text{
+    margin-top: 156px;
+}
+
+
+
+.counting-nav-container h2{
+    width: 700px;
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 140%;
+    margin-bottom: 60px;
+}
+
+#counting h6{
+     text-transform: capitalize;
+    color:#FF5538
+}
+
+.box-shadow{
+    box-shadow: 0px -9px 40px 0px rgbA(26, 19, 62, 0.06);
+    /* border: 1px solid #a10a0a; */
+}
+
+.container-override{
+    --bs-gutter-x: 0 !important;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+   margin: 0 auto;
+}
+
+.btn-transparent{
+    background-color: transparent;
+    border: 1px solid #FF5538;
+    color: #FF5538;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 100%;
+    
+}
+
+.gap{
+    column-gap: 10px;}
+
+
+    .imageone{
+        width: 100%;
+    }
+
+    .imagetwo{
+        width: 100%;
+    }
+   
+    
+    /* ===============counting 2 starts================ */
+    #counting-2{
+        background-color:#FDF9F8 ;
+        height: 730px;
+        padding-bottom: 120px;
+        padding-top: 120px;
+        position: relative;
+    }
+
+    .snake-4{
+    position: absolute;
+    right: 0px;
+    bottom: -55px;
+}
+
+    .flex-3{
+        display: flex;
+        justify-content: space-between;
+    }
+    .item-3{
+        width: 260px;
+        height: 230px;
+        background-color: white;
+        padding: 74px 78px;
+    }
+.counting-right-part{
+   
+}
+
+
+.counting-right-part h2{
+    width: 570px;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 140%;
+}
+
+
+.counting-right-part p{
+    width: 400px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 200%;
+}
+.col-gap{
+    gap: 30px;
+}
+.wrap{
+    flex-wrap:nowrap;
+}
+.margin-bottom{
+    margin-bottom: 30px;
+}
+.counting-left-part{
+    margin-right: 100px;
+}
+/* .padding-5{
+    padding: 30px 385px 30px 30px;
+} */
+
+.padding-bottom-2{
+        padding-bottom: 156px;
+}
+/*========== companies start============= */
+.companies-image{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: nowrap;
+    margin-top: 60px;
+
+}
+.imgone{
+    /* max-width:130px; */
+    max-width: 100%;
+    height: 130px;
+}
+#companies{
+    padding: 120px 0px;
+}
+
+
+#companies h2{
+    max-width: 749px;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 140%;
+    margin:0 auto;
+    text-align: center;
+
+}
+.flex6{
+    display:flex ;
+    justify-content:space-between ;
+
+}
+/* =============companies ends================== */
+/* =================customer starts============== */
+#customer{
+    padding: 120px 0px;
+    height: 800px;
+    background-color: #c06e59;
+    position: relative;
+}
+
+.customer-left{
+    margin-right: 90px;
+    width: 100%;
+}
+
+.customer-left h2{
+    margin-bottom: 60px;
+}
+.customer-left p{
+    margin-bottom: 60px;
+    width: 690px;
+    font-size: 20px;
+    line-height: 180%;
+    font-weight:400;
+}
+.imgcontainer2{
+    margin-bottom: 60px;
+    display: flex;
+    gap: 28px;
+}
+
+.customer-right{
+    width: 100%;
+    height: 500px;
+    
+}
+.btn-container{
+    margin-left: 930px;
+    /* margin-top: 20px; */
+    margin: bottom 30px; 
+   
+
+
+}
+
+
+
+.carousel-control-next-icon{
+    width: 4rem;
+    height: 4rem;
+    position: absolute;
+    bottom: -50px;
+    left: -990px;
+
+    ;
+}
+
+.carousel-control-prev-icon {
+    width: 4rem;
+    height: 4rem;
+    position: absolute;
+    bottom: -50px;
+    left: 120px;
+
+}
+    
+
+/* ==talks starts== */
+.talks-container{
+    display: flex;
+    justify-content: space-between;
+
+}
+#talks{
+    height: 446px;
+    padding: 100px 0px;
+    background-color: #FFD7C8;
+}
+/* ===========================fo0oter============================ starts */
+#footer{
+    padding-top: 140px;
+    padding-bottom: 57px;
+}
+.position-6{
+    position: relative;
+}
+.footer-policy-1{
+    position: absolute;
+    bottom: 0px;
+    right: 314px;
+}
+.footer-policy-2{
+    position: absolute;
+    bottom: 0px;
+    right: 90px;
+}
+
+.margin-bottom-6{
+    margin-bottom: 48px;
+}
+
+.decoration li{
+    list-style: none;
+   display: flex;
+   flex-direction: column;
+   align-items:right;
+   margin-left: -25px;
+   font-weight: 400;
+   font-size: 15px;
+   line-height: 200%;                                             
+}
+.m-7{
+    margin-bottom: 30px;
+}
